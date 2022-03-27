@@ -1,4 +1,4 @@
-package com.adaschool.vass;
+package com.adaschool.users;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,14 +1,20 @@
-package com.adaschool.users.service
+package com.adaschool.users.service;
+
+import com.adaschool.users.data.User;
+import com.adaschool.users.dto.UserDtoRequest;
+
+import java.util.List;
+import java.util.Optional;
 
 public interface IUserService{
 
-        User create( User user );
-
-        User findById( String id );
-
         List<User> all();
 
-        void deleteById( String id );
+        Optional<User> findById(String id );
 
-        User update( User user, String userId );
+        User create(UserDtoRequest user );
+
+        User update( UserDtoRequest user, String userId );
+
+        User deleteById( String id );
 }

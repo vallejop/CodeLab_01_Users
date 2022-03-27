@@ -1,4 +1,4 @@
-package com.adaschool.vass;
+package com.adaschool.users;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

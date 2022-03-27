@@ -1,6 +1,6 @@
 package com.adaschool.users.dto;
 
-public class UserDto {
+public class UserDtoRequest {
     String name;
 
     String lastName;
